@@ -10,9 +10,15 @@ It answers instantly using official NWS data.
 
 ## Features
 
-- Live active alerts for any U.S. state (2-letter code)
-- Full event description, severity, affected areas & safety instructions
-- Built with **FastMCP** – works natively in Cursor, Cline, Windsurf, etc.
-- Conversational memory support
-- No NWS API key required – 100% free & public endpoint
+- Official NWS data (no API key needed)
+- Full alert details: event, severity, areas, description & instructions
+- State lookup by 2-letter code or natural language
+- Conversation memory (remembers previous states you asked about)
+- Lightning-fast with Groq (Qwen-32B) or any LLM you prefer
 
+| Client            | Status | Notes                          |
+|-------------------|--------|--------------------------------|
+| Cursor            | Works  | Native MCP integration         |
+| Claude Desktop    | Works  | Drag & drop `weather.json`     |
+| Groq Chat         | Works  | Via MCP Inspector or direct    |
+| MCP Inspector     | Works  | Great for debugging tools      |
