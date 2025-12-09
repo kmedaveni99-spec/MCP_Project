@@ -1,0 +1,110 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv
+env/
+ENV/
+env.bak/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytest_cache/
+.hypothesis/
+
+# Virtual environment (if you ever commit it by mistake)
+venv*/
+env*/
+ENV*/
+
+# SQLite database (you use test.db locally)
+*.db
+*.sqlite
+*.sqlite3
+test.db
+instance/
+
+# FastAPI / Uvicorn
+*.log
+uvicorn.log
+
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+.env.backup
+.env.save
+.env.example
+.env~
+*.env
+
+# LangChain / LangGraph / LangSmith
+.langchain/
+.langsmith/
+.langgraph/
+langchain_cache/
+.lanGSmith/
+chainlit_cache/
+*.lchain
+*.lc_cache
+
+# Vector stores & embeddings cache
+chroma_db/
+chroma/
+*.chroma
+*.faiss
+faiss_index/
+*.pkl
+*.pickle
+embeddings_cache/
+vector_store/
+vectorstore/
+
+# Jupyter / IPython
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# IDE / Editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.vs/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build / Dist
+build/
+dist/
+*.egg-info/
+*.egg
+*.dist-info/
+.eggs/
+
+# Testing
+htmlcov/
+.coverage
+.coverage.*
+.tox/
+.nox/

@@ -1,0 +1,16 @@
+[project]
+name = "mcpproject"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "httpx>=0.28.1",
+    "langchain-groq>=1.1.0",
+    "mcp[cli]>=1.23.2",
+    "numpy>=2.3.5",
+    "openmeteo-requests>=1.7.4",
+    "pandas>=2.3.3",
+    "requests-cache>=1.2.1",
+    "retry-requests>=2.0.0",
+]

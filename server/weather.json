@@ -1,0 +1,16 @@
+{
+    "mcpServers": {
+      "weather": {
+        "command": "/opt/anaconda3/bin/uv",
+        "args": [
+          "run",
+          "--frozen",
+          "--with",
+          "mcp[cli]",
+          "mcp",
+          "run",
+          "/Users/keerthanamedaveni/Desktop/MCPPROJECT/server/weather.py"
+        ]
+      }
+    }
+  }
